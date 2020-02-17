@@ -18,7 +18,7 @@ def using_shift(array)
   array.shift;
 end
 
-def shift_with_args
+def shift_with_args(array)
   array.shift(2)
 end
 
@@ -42,6 +42,6 @@ def using_delete(array, element)
   array.delete(element)
 end
 
-def using_delete_at(array, number)
+def using_delete_at(array, integer)
   array.delete_at[number]
 end
